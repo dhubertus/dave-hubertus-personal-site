@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link, Switch } from 'react-router-dom';
 import { NavBar } from '../NavBar/NavBar'
 import { About } from '../About/About'
+import { Resume } from '../Resume/Resume'
 import './App.css';
 
 class App extends Component {
@@ -29,8 +30,11 @@ class App extends Component {
             </div>
           </section>
         </header>
-        <Route exact path='/' render={ ({ history }) => (
+        <Route path='/about' render={ ({ history }) => (
           <About history={ history }/>
+        )}/>
+        <Route path='/resume' render={ ({ history }) => (
+          <Resume history={ history }/>
         )}/>
       </div>
     );

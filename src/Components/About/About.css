@@ -1,0 +1,41 @@
+#about-container {
+  height: 700px;
+  width: 100%;
+  background: #30312d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headshot {
+  background: url('../../images/headshot.jpg');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid #f3efeb;
+  border-radius: 2px;
+  margin: 40px 0;
+}
+
+#about-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3efeb;
+  width: 60%;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #755e35;
+  padding-bottom: 5px;
+}
+
+#personal {
+  display: flex;
+  /*text-indent: 40px;*/
+  color: #f3efeb;
+  width: 60%;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+}

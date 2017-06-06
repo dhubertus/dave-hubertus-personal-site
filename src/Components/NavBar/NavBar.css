@@ -22,3 +22,11 @@
 .nav-link:hover {
   background: rgba(16, 16, 16, 0.60);
 }
+
+.nav-link:active {
+  background: rgba(243, 239, 235, 0.70);
+}
+
+.selected {
+  background: rgba(23, 31, 86, 0.50);
+}
