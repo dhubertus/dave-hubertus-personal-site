@@ -14,6 +14,7 @@ class App extends Component {
           <section id='nav-bar'>
             <NavBar />
           </section>
+          <div id='prac'></div>
           <section id='logo-container'>
             <div id='name-logo'>
               <p className='name-logo-letter'>D</p>
