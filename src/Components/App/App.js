@@ -3,6 +3,7 @@ import { Route, Link, Switch } from 'react-router-dom';
 import { NavBar } from '../NavBar/NavBar'
 import { About } from '../About/About'
 import { Resume } from '../Resume/Resume'
+import { Contact } from '../Contact/Contact'
 import './App.css';
 
 class App extends Component {
@@ -35,6 +36,9 @@ class App extends Component {
         )}/>
         <Route path='/resume' render={ ({ history }) => (
           <Resume history={ history }/>
+        )}/>
+        <Route path='/contact' render={ ({ history }) => (
+          <Contact history={ history }/>
         )}/>
       </div>
     );

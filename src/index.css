@@ -2,6 +2,8 @@
 @import './Components/NavBar/NavBar.css';
 @import './Components/About/About.css';
 @import './Components/Resume/Resume.css';
+@import './Components/Footer/Footer.css';
+@import './Components/Contact/Contact.css';
 
 html,
 body {

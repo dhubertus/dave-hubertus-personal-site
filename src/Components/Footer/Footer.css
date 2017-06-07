@@ -1,0 +1,63 @@
+#footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background: #404a5f;
+}
+
+footer {
+  display: flex;
+  height:100px;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#linked-in {
+  background: url('../../images/linkedin-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#linked-in:hover {
+  background: url('../../images/linked-in-logo-black.svg');
+}
+
+#gmail {
+  background: url('../../images/gmail-icon.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#instagram {
+  background: url('../../images/instagram-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#twitter {
+  background: url('../../images/twitter-logo-silhouette.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#facebook {
+  background: url('../../images/facebook-app-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+
+#git-hub {
+  background: url('../../images/github-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}

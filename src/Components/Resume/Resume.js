@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../Footer/Footer'
 
 export const Resume = () => {
   return (
@@ -43,6 +44,7 @@ export const Resume = () => {
           <h5>BS Chemistry / BA Secondary Education</h5>
         </article>
       </article>
+      <Footer />
     </section>
   )
 }
