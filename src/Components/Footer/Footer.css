@@ -4,7 +4,8 @@
   align-items: center;
   height: 100px;
   width: 100%;
-  background: #404a5f;
+  background: #776D64;
+  /*background: #404a5f;*/
 }
 
 footer {
@@ -23,11 +24,35 @@ footer {
 }
 
 #linked-in:hover {
-  background: url('../../images/linked-in-logo-black.svg');
+  background: url('../../images/linkedin-logo-yellow.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#git-hub {
+  background: url('../../images/github-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#git-hub:hover {
+  background: url('../../images/github-logo-yellow.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
 }
 
 #gmail {
-  background: url('../../images/gmail-icon.svg');
+  background: url('../../images/gmail-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#gmail:hover {
+  background: url('../../images/gmail-logo-yellow.svg');
   background-size: cover;
   height:35px;
   width: 35px;
@@ -40,8 +65,22 @@ footer {
   width: 35px;
 }
 
+#instagram:hover {
+  background: url('../../images/instagram-logo-yellow.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
 #twitter {
-  background: url('../../images/twitter-logo-silhouette.svg');
+  background: url('../../images/twitter-logo.svg');
+  background-size: cover;
+  height:35px;
+  width: 35px;
+}
+
+#twitter:hover {
+  background: url('../../images/twitter-logo-yellow.svg');
   background-size: cover;
   height:35px;
   width: 35px;
@@ -54,9 +93,8 @@ footer {
   width: 35px;
 }
 
-
-#git-hub {
-  background: url('../../images/github-logo.svg');
+#facebook:hover {
+  background: url('../../images/facebook-app-logo-yellow.svg');
   background-size: cover;
   height:35px;
   width: 35px;

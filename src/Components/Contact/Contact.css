@@ -13,7 +13,6 @@
   height: 100%;
   width: 100%;
   display: flex;
-  /*flex-direction: column;*/
   align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
@@ -51,7 +50,7 @@
 }
 
 .email {
-  background: url('../../images/gmail-icon.svg');
+  background: url('../../images/gmail-logo.svg');
   height: 50px;
   width: 50px;
   background-size: cover;
