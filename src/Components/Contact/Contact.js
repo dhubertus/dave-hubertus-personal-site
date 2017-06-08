@@ -3,8 +3,8 @@ import React from 'react'
 export const Contact = () => {
   return (
     <section id='contact-container'>
-      <h3>CONTACT</h3>
       <section id='contact-method-container'>
+        <h3>CONTACT</h3>
           <article className='contact-method'>
             <a className='contact-icon phone'></a>
             <a id='phone'>(203) 241-1899</a>
@@ -13,9 +13,9 @@ export const Contact = () => {
             <a
               className='contact-icon email'
               href='mailto:davehubertus@gmail.com'></a>
-              <a
-                id='email'
-                href='mailto:davehubertus@gmail.com'>davehubertus@gmail.com</a>
+            <a
+              id='email'
+              href='mailto:davehubertus@gmail.com'>davehubertus@gmail.com</a>
           </article>
           <article className='contact-method'>
             <a
