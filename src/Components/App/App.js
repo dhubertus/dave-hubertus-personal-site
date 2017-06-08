@@ -17,18 +17,6 @@ class App extends Component {
           <div id='prac'></div>
           <section id='logo-container'>
             <div id='name-logo'>
-              <p className='name-logo-letter'>D</p>
-              <p className='name-logo-letter'>A</p>
-              <p className='name-logo-letter'>V</p>
-              <p className='name-logo-letter'>E</p>
-              <p className='name-logo-letter'>H</p>
-              <p className='name-logo-letter'>U</p>
-              <p className='name-logo-letter'>B</p>
-              <p className='name-logo-letter'>E</p>
-              <p className='name-logo-letter'>R</p>
-              <p className='name-logo-letter'>T</p>
-              <p className='name-logo-letter'>U</p>
-              <p className='name-logo-letter'>S</p>
             </div>
           </section>
         </header>
@@ -47,3 +35,19 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
+{/* <p className='name-logo-letter'>D</p>
+<p className='name-logo-letter'>A</p>
+<p className='name-logo-letter'>V</p>
+<p className='name-logo-letter'>E</p>
+<p className='name-logo-letter'>H</p>
+<p className='name-logo-letter'>U</p>
+<p className='name-logo-letter'>B</p>
+<p className='name-logo-letter'>E</p>
+<p className='name-logo-letter'>R</p>
+<p className='name-logo-letter'>T</p>
+<p className='name-logo-letter'>U</p>
+<p className='name-logo-letter'>S</p> */}
