@@ -49,6 +49,13 @@
   background-size: cover;
 }
 
+.phone:hover {
+  background: url('../../images/phone-icon-yellow.svg');
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
 #phone {
   color: white;
   margin-left: 50px;
@@ -60,8 +67,19 @@
   align-self: center;
 }
 
+#phone:hover {
+  color: #f7b731;
+}
+
 .email {
   background: url('../../images/gmail-logo.svg');
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
+.email:hover {
+  background: url('../../images/gmail-logo-yellow.svg');
   height: 50px;
   width: 50px;
   background-size: cover;
@@ -77,8 +95,19 @@
   text-decoration: none;
 }
 
+#email:hover {
+  color: #f7b731;
+}
+
 .linkedin {
   background: url('../../images/linkedin-logo.svg');
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
+.linkedin:hover {
+  background: url('../../images/linkedin-logo-yellow.svg');
   height: 50px;
   width: 50px;
   background-size: cover;
@@ -94,8 +123,19 @@
   text-decoration: none;
 }
 
+#linkedin-url:hover {
+  color: #f7b731;
+}
+
 .github {
   background: url('../../images/github-logo.svg');
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
+.github:hover {
+  background: url('../../images/github-logo-yellow.svg');
   height: 50px;
   width: 50px;
   background-size: cover;
@@ -109,4 +149,8 @@
   margin-left: 50px;
   color: white;
   text-decoration: none;
+}
+
+#github-url:hover {
+  color: #f7b731;
 }
