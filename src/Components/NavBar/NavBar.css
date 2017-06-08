@@ -6,6 +6,7 @@
 
 .nav-link {
   display: flex;
+  letter-spacing: 1.0px;
   justify-content: center;
   align-items: center;
   height: 40px;
