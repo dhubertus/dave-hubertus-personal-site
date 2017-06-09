@@ -107,3 +107,22 @@ ul li {
 #education-card h4 {
   font-weight: 100;
 }
+
+@media screen and (max-width: 700px) {
+  #education-card,
+  #skills-card,
+  .experience-card{
+    width: 85%;
+  }
+
+  #experience-title {
+    width: 85%;
+  }
+
+  .experience-card h4 {
+    text-align: center;
+  }
+
+
+
+}

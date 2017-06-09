@@ -31,7 +31,7 @@
   padding-bottom: 10px;
 }
 
-#personal {
+.personal {
   display: flex;
   /*text-indent: 40px;*/
   color: #f3efeb;
@@ -40,4 +40,10 @@
   line-height: 30px;
   text-align: center;
   font-weight: 300;
+}
+
+@media screen and (max-width: 700px) {
+  .personal {
+    width: 85%;
+  }
 }
