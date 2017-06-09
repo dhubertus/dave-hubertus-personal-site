@@ -32,13 +32,14 @@
 }
 
 #name-logo {
-  height: 170px;
+  /*height: 170px;
   width: 212px;
   background: url('../../images/dave-01.svg');
   background-size: cover;
   background-repeat: repeat;
-  margin-bottom: 75px;
-  /*display: flex;
+  margin-bottom: 75px;*/
+
+  display: flex;
   flex-wrap: wrap;
   height: 150px;
   width: 200px;
@@ -47,7 +48,7 @@
   font-size: 2em;
   font-weight: 700;
   border-radius: 2px;
-  margin-bottom: 100px;*/
+  margin-bottom: 100px;
 }
 
 .name-logo-letter {
