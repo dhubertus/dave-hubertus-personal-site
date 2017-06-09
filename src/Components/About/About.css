@@ -20,7 +20,7 @@
   margin: 40px 0;
 }
 
-#about-header {
+.about-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,10 @@
 
 @media screen and (max-width: 700px) {
   .personal {
+    width: 85%;
+  }
+
+  .about-header {
     width: 85%;
   }
 }
