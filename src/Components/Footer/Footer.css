@@ -99,3 +99,17 @@ footer {
   height:35px;
   width: 35px;
 }
+
+@media screen and (max-width: 700px) {
+  #facebook,
+  #twitter,
+  #instagram {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    width: 90%;
+  }
+}

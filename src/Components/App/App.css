@@ -59,3 +59,89 @@
   margin: 0;
   background: transparent;
 }
+
+.bm-burger-button {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  /*NOTE: HAMBURGER CSS*/
+
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    display: block;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #f3efeb;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    /*height: 36px;
+    width: 36px;*/
+    background: #f3efeb;
+
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    /*background: #536073;*/
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    background: url('../../images/bricks.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(27, 12, 12, 0.6);
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    /*background: #373a47;*/
+    margin: 35px 0;
+    color: #f3efeb;
+  }
+
+  .menu-item:hover {
+    color: #f7b731;
+  }
+
+  .menu-item:active {
+    color: #f7b731;
+  }
+}

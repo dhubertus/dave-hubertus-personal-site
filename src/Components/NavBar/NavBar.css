@@ -32,3 +32,9 @@
 .selected {
   background: rgba(247, 183, 49, 0.55);
 }
+
+@media screen and (max-width: 700px) {
+  .nav-link{
+    display: none;
+  }
+}

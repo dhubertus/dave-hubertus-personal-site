@@ -49,13 +49,6 @@
   background-size: cover;
 }
 
-.phone:hover {
-  background: url('../../images/phone-icon-yellow.svg');
-  height: 50px;
-  width: 50px;
-  background-size: cover;
-}
-
 #phone {
   color: white;
   margin-left: 50px;
@@ -65,10 +58,6 @@
   height: 50px;
   width: auto;
   align-self: center;
-}
-
-#phone:hover {
-  color: #f7b731;
 }
 
 .email {
@@ -153,4 +142,27 @@
 
 #github-url:hover {
   color: #f7b731;
+}
+
+@media screen and (max-width: 700px) {
+  #github-url,
+  #linkedin-url,
+  #email {
+    display: none;
+  }
+
+  .phone {
+    display: none;
+    margin: 0;
+  }
+
+  #phone {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .contact-method {
+    margin: 0;
+    justify-content: center;
+  }
 }
