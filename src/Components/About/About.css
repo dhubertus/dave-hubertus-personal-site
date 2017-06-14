@@ -9,7 +9,7 @@
 }
 
 #headshot {
-  background: url('../../images/headshot.jpg');
+  background: url('../../images/dave-headshot-blur.jpg');
   background-size: cover;
   height: 200px;
   width: 200px;
@@ -19,6 +19,18 @@
   border-radius: 2px;
   margin: 40px 0;
 }
+
+/*#headshot:hover {
+  background: url('../../images/headshot.jpg');
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid #f3efeb;
+  border-radius: 2px;
+  margin: 40px 0;
+}*/
 
 .about-header {
   display: flex;
