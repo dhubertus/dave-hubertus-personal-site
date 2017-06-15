@@ -51,6 +51,12 @@
   margin: 0;
 }
 
+.anchor-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .try-it-anchor {
   margin: 30px;
   background: #776d64;
@@ -64,7 +70,7 @@
 }
 
 .repository-anchor {
-  margin: 0 30px 35px 30px;
+  margin:30px;
   background: #776d64;
   padding: 10px;
   border-radius: 2px;
@@ -224,4 +230,29 @@
   width: 623px;
   color: transparent;
   border-radius: 2px;
+}
+
+
+@media screen and (max-width: 860px) {
+  #ufo-img,
+  #movie-tracker-img,
+  #star-wars-img,
+  #cloud-kicker-img,
+  #breakout-img {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .anchor-holder{
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .try-it-anchor,
+  .repository-anchor {
+    margin: 20px 0 0 0;
+  }
+
 }
