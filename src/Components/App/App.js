@@ -34,7 +34,13 @@ class App extends Component {
   }
 
   scrollPortfolio() {
-
+    setTimeout(() => {
+      return Scroll.scroller.scrollTo('portfolio-container', {
+        duration: 1000,
+        delay: 150,
+        smooth: true
+      })
+    }, 500)
   }
 
   scrollContact() {
@@ -64,6 +70,7 @@ class App extends Component {
               activeClassName='selected-menu`'
               to="/resume">RESUME</NavLink>
             <NavLink
+              onClick={ () => this.scrollPortfolio() }
               className="menu-item"
               activeClassName='selected-menu`'
               to="/portfolio">PORTFOLIO</NavLink>
