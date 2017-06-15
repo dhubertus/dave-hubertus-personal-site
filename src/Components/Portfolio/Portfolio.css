@@ -21,7 +21,7 @@
 #portfolio-title {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 100%;
   border-bottom: 2px solid #776D64;
   padding-bottom: 10px;
   letter-spacing: 1.5px;
@@ -48,7 +48,43 @@
   letter-spacing: 1px;
   font-weight: 100;
   line-height: 22px;
+  margin: 0;
 }
+
+.try-it-anchor {
+  margin: 30px;
+  background: #776d64;
+  padding: 10px;
+  border-radius: 2px;
+  -webkit-transition: color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out;
+}
+
+.repository-anchor {
+  margin: 0 30px 35px 30px;
+  background: #776d64;
+  padding: 10px;
+  border-radius: 2px;
+  -webkit-transition: color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out;
+}
+
+.try-it-anchor:hover {
+  color: #f7b731;
+}
+
+.repository-anchor:hover {
+  color: #f7b731;
+}
+
+.try-it-anchor:active {
+  color: #23273e;
+}
+
+.repository-anchor:active {
+  color: #23273e;
+}
+
 
 #ufo-img p,
 #movie-tracker-img p,
@@ -71,8 +107,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
 }
 
 #ufo-img:hover {
@@ -121,8 +157,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
 }
 
 #star-wars-img:hover {
@@ -146,8 +182,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
 }
 
 #cloud-kicker-img:hover {
