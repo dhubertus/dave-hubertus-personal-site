@@ -3,7 +3,7 @@ import { Footer } from '../Footer/Footer'
 
 export const Resume = () => {
   return (
-    <section >
+    <section>
       <div id='resume-container'>
         <article id='experience-container'>
           <h3 id='experience-title'>EXPERIENCE</h3>

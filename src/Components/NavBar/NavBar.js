@@ -23,13 +23,16 @@ export const NavBar = () => {
       })
     }, 100)
   }
-  // const scrollPortfolio = () => {
-  //   return Scroll.scroller.scrollTo('about-container', {
-  //     duration: 1000,
-  //     delay: 150,
-  //     smooth: true
-  //   })
-  // }
+  const scrollPortfolio = () => {
+    setTimeout(() => {
+      return Scroll.scroller.scrollTo('portfolio-container', {
+        duration: 1000,
+        delay: 150,
+        smooth: true
+      })
+    }, 100)
+  }
+
   const scrollContact = () => {
     setTimeout(() => {
       return Scroll.scroller.scrollTo('contact-container', {
@@ -56,7 +59,8 @@ export const NavBar = () => {
       <NavLink
         className='nav-link'
         activeClassName='selected'
-        to='/portfolio'>PORTFOLIO</NavLink>
+        to='/portfolio'
+        onClick={() => scrollPortfolio()}>PORTFOLIO</NavLink>
       <NavLink
         className='nav-link'
         activeClassName='selected'

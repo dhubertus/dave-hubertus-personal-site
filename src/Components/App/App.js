@@ -3,6 +3,7 @@ import { Route, Link, Switch } from 'react-router-dom';
 import { NavBar } from '../NavBar/NavBar'
 import { About } from '../About/About'
 import { Resume } from '../Resume/Resume'
+import { Portfolio } from '../Portfolio/Portfolio'
 import { Contact } from '../Contact/Contact'
 import { push as Menu } from 'react-burger-menu'
 import { NavLink } from 'react-router-dom';
@@ -102,6 +103,9 @@ class App extends Component {
         )}/>
         <Route path='/resume' render={ ({ history }) => (
           <Resume history={ history }/>
+        )}/>
+        <Route path='/portfolio' render={ ({ history }) => (
+          <Portfolio history={ history }/>
         )}/>
         <Route path='/contact' render={ ({ history }) => (
           <Contact history={ history }/>
