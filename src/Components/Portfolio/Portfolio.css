@@ -50,6 +50,15 @@
   line-height: 22px;
 }
 
+#ufo-img p,
+#movie-tracker-img p,
+#star-wars-img p,
+#cloud-kicker-img p,
+#breakout-img p {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
 #ufo-img {
   background: url('../../images/ufo-sighting.png');
   background-size: cover;
@@ -62,6 +71,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
 }
 
 #ufo-img:hover {
@@ -72,17 +83,6 @@
   color: transparent;
   border-radius: 2px;
 }
-
-#ufo-img p,
-#movie-tracker-img p,
-#star-wars-img p,
-#cloud-kicker-img p,
-#breakout-img p {
-  font-size: 1.3em;
-  font-weight: 400;
-}
-
-
 
 #movie-tracker-img {
   background: url('../../images/movie-watcher.png');
@@ -96,6 +96,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
 }
 
 #movie-tracker-img:hover {
@@ -119,6 +121,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
 }
 
 #star-wars-img:hover {
@@ -142,6 +146,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
 }
 
 #cloud-kicker-img:hover {
@@ -165,6 +171,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
 }
 
 #breakout-img:hover {
