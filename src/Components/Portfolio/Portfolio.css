@@ -250,6 +250,12 @@
     margin: 20px;
   }
 
+
+#portfolio-card-container {
+  width: 85%;
+}
+
+
   .try-it-anchor,
   .repository-anchor {
     margin: 20px 0 0 0;
