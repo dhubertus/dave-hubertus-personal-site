@@ -51,6 +51,10 @@
   margin: 0;
 }
 
+#pitch {
+  margin-top: 20px;
+}
+
 .anchor-holder {
   display: flex;
   justify-content: center;
