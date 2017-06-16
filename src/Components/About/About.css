@@ -54,6 +54,25 @@
   font-weight: 300;
 }
 
+.personal-two {
+  display: inline;
+  /*flex-direction: column;*/
+  /*text-indent: 40px;*/
+  color: #f3efeb;
+  width: 60%;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.personal em {
+  /*color: #23273e;*/
+  /*color: #f7b731;*/
+  /*font-weight: 400;*/
+  display: inline-flex;
+}
+
 @media screen and (max-width: 700px) {
   .personal {
     width: 85%;

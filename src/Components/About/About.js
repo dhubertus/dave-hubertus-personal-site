@@ -13,7 +13,10 @@ export const About = () => {
       </section>
       <section id='about-container'>
         <h3 className='about-header'>STORY</h3>
-        <p className='personal'>Turkey meatloaf bacon short loin swine jerky. Capicola ham tongue short loin. Fatback filet mignon meatloaf sirloin swine andouille jerky kielbasa chuck turkey porchetta bresaola. Corned beef jerky spare ribs ball tip ground round, capicola tongue rump swine pastrami drumstick pork. Boudin jerky turducken shoulder kevin, pork chop sirloin drumstick cupim prosciutto turkey. Salami ground round turkey corned beef ham fatback.</p>
+        <p className='personal'>I am originally from the tri-state area and moved to Colorado for my passion of the outdoors. I have called a car ‘home’ more than once, spent every dime I’ve had doing so, and couldn’t value the memories more. Interests of mine include camping, fishing, travel, photography, and old video games. I have spent many nights rummaging through the sci-fiction/horror movie section of local public libraries in search of the dustiest movie I can find. I enjoy playing a variety of sports and spend the majority of my free time following my favorite New York teams.
+        </p>
+        <p className='personal'>Throughout my career I have gained experience in constructing equipment, engineering, and problem solving which bleeds into my personal life and has led me to become an avid hobbyist. There is an endless amount of skills I wish to learn, to the extent that my focus can quickly shift from one concept to the next. RIP abandoned ideas. I look forward to my career as a software developer and I am excited to continue to solve problems and challenge myself everyday.
+        </p>
       </section>
       <Sports />
       <Footer />
