@@ -123,8 +123,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.4s ease-out;
-  -moz-transition: background-color 0.4s ease-out;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
 }
 
 #ufo-img:hover {
@@ -148,8 +148,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
 }
 
 #movie-tracker-img:hover {
@@ -173,8 +173,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.4s ease-out;
-  -moz-transition: background-color 0.4s ease-out;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
 }
 
 #star-wars-img:hover {
@@ -198,8 +198,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.4s ease-out;
-  -moz-transition: background-color 0.4s ease-out;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
 }
 
 #cloud-kicker-img:hover {
@@ -223,8 +223,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  -webkit-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
 }
 
 #breakout-img:hover {
