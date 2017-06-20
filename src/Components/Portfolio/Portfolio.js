@@ -3,7 +3,7 @@ import { Footer } from '../Footer/Footer'
 
 export const Portfolio = () => {
   const alertFunction = () => {
-      alert('Sorry! Hosted Site Coming Soon')
+      alert('Sorry! Hosted Site Coming Soon. Please visit the GitHub Repo README.md to learn more about using the site.')
     }
 
   return (
