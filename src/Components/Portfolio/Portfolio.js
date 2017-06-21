@@ -27,7 +27,7 @@ export const Portfolio = () => {
         </article>
         <article className='project-card'>
           <h4>Movie Tracker</h4>
-          <p>Ac aliquam sit aliquam, nulla quis sociosqu in dolor, arcu habitant, est venenatis at fermentum lacinia donec et, convallis at tortor. Bibendum risus lorem ut metus, leo consectetuer justo cursus egestas, vitae dignissim posuere vel, ornare luctus. Lectus nibh cillum lectus pretium tellus, mollis nibh urna debitis. Arcu sapien in sed dolor, et sit praesent nisl class libero, phasellus amet aliquam sit mi pretium pellentesque. Mattis neque diam viverra iaculis, in lectus erat velit proin suspendisse, beatae enim luctus, sodales a gravida ut pellentesque lorem.</p>
+          <p>Movie Tracker was a week long project during my third module at Turing School of Software and Design. During this project we worked off The Movie DB API with the idea that the user should be able to create a user-name, sign in as a user, and save favorite movies. With the intention of becoming comfortable using Redux the technologies used to create this app were React.js, React-Redux, Redux-thunk, React-Router 4.0, PostgreSQL, Vanilla JS, JSX and CSS.</p>
           <div className='anchor-holder'>
             <a className='try-it-anchor' onClick={() => alertFunction()}><s>Try It Yourself</s></a>
             <a
@@ -41,7 +41,7 @@ export const Portfolio = () => {
         </article>
         <article className='project-card'>
           <h4>Star Wars API</h4>
-          <p>Ac aliquam sit aliquam, nulla quis sociosqu in dolor, arcu habitant, est venenatis at fermentum lacinia donec et, convallis at tortor. Bibendum risus lorem ut metus, leo consectetuer justo cursus egestas, vitae dignissim posuere vel, ornare luctus. Lectus nibh cillum lectus pretium tellus, mollis nibh urna debitis. Arcu sapien in sed dolor, et sit praesent nisl class libero, phasellus amet aliquam sit mi pretium pellentesque. Mattis neque diam viverra iaculis, in lectus erat velit proin suspendisse, beatae enim luctus, sodales a gravida ut pellentesque lorem.</p>
+          <p>SWAPI was a four day project built with the goal of further developing muscle memory building out React components by leveraging our current understanding of React and adding some more complexity. In this project we utilized The Star Wars API which is heavily nested with additional API calls providing further insight and experience in handling asynchronous JavaScript.</p>
           <div className='anchor-holder'>
             <a
               className='try-it-anchor'
@@ -58,7 +58,7 @@ export const Portfolio = () => {
         </article>
         <article className='project-card'>
           <h4>CloudKicker</h4>
-          <p>Ac aliquam sit aliquam, nulla quis sociosqu in dolor, arcu habitant, est venenatis at fermentum lacinia donec et, convallis at tortor. Bibendum risus lorem ut metus, leo consectetuer justo cursus egestas, vitae dignissim posuere vel, ornare luctus. Lectus nibh cillum lectus pretium tellus, mollis nibh urna debitis. Arcu sapien in sed dolor, et sit praesent nisl class libero, phasellus amet aliquam sit mi pretium pellentesque. Mattis neque diam viverra iaculis, in lectus erat velit proin suspendisse, beatae enim luctus, sodales a gravida ut pellentesque lorem.</p>
+          <p>CloudKicker was a four day project from my second module at the Turing School of Software and Design. It is the first app I built in React JS as well as my first encounter with handling asynchronous fetch calls. It utilizes Weather Underground’s API to render on demand weather forecasts to a stylish and accessible user interface. In addition to using React JS we also used Enzyme to thoroughly test our application.</p>
           <div className='anchor-holder'>
             <a
               className='try-it-anchor'
@@ -75,7 +75,7 @@ export const Portfolio = () => {
         </article>
         <article className='project-card'>
           <h4>Breakout</h4>
-          <p>Ac aliquam sit aliquam, nulla quis sociosqu in dolor, arcu habitant, est venenatis at fermentum lacinia donec et, convallis at tortor. Bibendum risus lorem ut metus, leo consectetuer justo cursus egestas, vitae dignissim posuere vel, ornare luctus. Lectus nibh cillum lectus pretium tellus, mollis nibh urna debitis. Arcu sapien in sed dolor, et sit praesent nisl class libero, phasellus amet aliquam sit mi pretium pellentesque. Mattis neque diam viverra iaculis, in lectus erat velit proin suspendisse, beatae enim luctus, sodales a gravida ut pellentesque lorem.</p>
+          <p>Our version of Breakout was designed to look like and sound like the original atari version from the 70’s. Unfortunately the sound had to be removed for hosting reasons. The goal when building Breakout was to build a game that is playable in the browser using HTML5 Canvas. Additionally we were to use design patterns to drive implementation of code, separate business-logic code from view-related code, and to use TDD while building out the application. The game of choice was to be full-featured and playable with sufficient UX allowing to user to fully interact with the game.</p>
           <div className='anchor-holder'>
             <a
               className='try-it-anchor' href='https://dhubertus.github.io/GameTime-Breakout'
