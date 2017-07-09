@@ -32,6 +32,7 @@ export const Resume = () => {
             <li>React / Redux / Router</li>
             <li>jQuery</li>
             <li>HTML5 Canvas</li>
+            <li>Node / Express / Knex</li>
             <li>TDD</li>
             <li>Design Fundamentals</li>
             <li>Data Analytics</li>
