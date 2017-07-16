@@ -21,6 +21,8 @@ footer {
   background-size: cover;
   height:35px;
   width: 35px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
 }
 
 #linked-in:hover {
@@ -35,6 +37,8 @@ footer {
   background-size: cover;
   height:35px;
   width: 35px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
 }
 
 #git-hub:hover {
@@ -49,6 +53,8 @@ footer {
   background-size: cover;
   height:35px;
   width: 35px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
 }
 
 #gmail:hover {
@@ -63,6 +69,8 @@ footer {
   background-size: cover;
   height:35px;
   width: 35px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
 }
 
 #instagram:hover {
@@ -77,6 +85,8 @@ footer {
   background-size: cover;
   height:35px;
   width: 35px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
 }
 
 #twitter:hover {
@@ -91,6 +101,8 @@ footer {
   background-size: cover;
   height:35px;
   width: 35px;
+  -webkit-transition: background 0.2s ease-out;
+  -moz-transition: background 0.2s ease-out;
 }
 
 #facebook:hover {

@@ -5,14 +5,55 @@ import { About } from '../About/About'
 import { Resume } from '../Resume/Resume'
 import { Portfolio } from '../Portfolio/Portfolio'
 import { Contact } from '../Contact/Contact'
+import { DownloadResume } from '../DownloadResume/DownloadResume'
 import { push as Menu } from 'react-burger-menu'
 import { NavLink } from 'react-router-dom';
 import Scroll from 'react-scroll'
+import Modal from 'react-modal'
 
 
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      modalOpen: false,
+      displaying: ''
+    };
+  }
+
+  displayItem() {
+    console.log('displayItem ran');
+    if(this.state.displaying === 'resume'){
+      console.log(this);
+      return (
+        <Modal
+          className='project-modal'
+          isOpen={ this.state.modalOpen }
+          contentLabel='Resume'
+        >
+          <DownloadResume
+            toggleModal={ this.toggleModal.bind(this) }
+          />
+        </Modal>
+      );
+    } else {
+      return(
+        <div></div>
+      )
+    }
+  }
+
+
+  toggleModal(item) {
+    if (!this.state.modalOpen) {
+      this.setState({ modalOpen: true, displaying: item });
+    } else {
+      this.setState({ modalOpen: false, displaying: '' });
+    }
+  }
+
   scrollAbout() {
     setTimeout(() => {
       return Scroll.scroller.scrollTo('about-container', {
@@ -115,7 +156,10 @@ class App extends Component {
           <Portfolio history={ history }/>
         )}/>
         <Route path='/contact' render={ ({ history }) => (
-          <Contact history={ history }/>
+          <div>
+            { this.displayItem() }
+            <Contact toggleModal={this.toggleModal.bind(this)} history={ history }/>
+          </div>
         )}/>
       </div>
       </main>
