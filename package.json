@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "react": "^15.5.4",
     "react-burger-menu": "^2.0.2",
     "react-dom": "^15.5.4",
@@ -24,8 +25,8 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dhubertus/dave-hubertus-personal-site"
   },
   "author": "Dave Hubertus",
-  "homepage": ""
+  "homepage": "https://dhubertus.github.io/dave-hubertus-personal-site/"
 }
