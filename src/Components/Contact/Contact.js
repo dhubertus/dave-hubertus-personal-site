@@ -37,9 +37,16 @@ export const Contact = ({ toggleModal }) => {
               href='https://github.com/dhubertus'
               target='_blank'>GitHub</a>
           </article>
-          <article
-            id='resume-modal'
-            onClick={ () => toggleModal("resume") }>Download Resume
+          <article className='contact-method'>
+            <a
+              className='contact-icon resume'
+              onClick={ () => toggleModal("resume") }>
+              </a>
+            <article
+              id='resume-modal'
+              onClick={ () => toggleModal("resume") }>Download Resume
+            </article>
+
           </article>
       </section>
     </section>
