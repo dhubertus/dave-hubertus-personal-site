@@ -52,3 +52,14 @@
   background-size: cover;
   margin: 0 5px;
 }
+
+#rangers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../../images/rangers.png');
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  margin: 0 5px;
+}

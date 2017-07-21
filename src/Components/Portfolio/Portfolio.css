@@ -111,7 +111,7 @@
   font-weight: 400;
 }
 
-#ufo-img {
+/*#ufo-img {
   background: url('../../images/ufo-sighting.png');
   background-size: cover;
   height:380px;
@@ -125,9 +125,9 @@
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
-}
+}*/
 
-#ufo-img:hover {
+#ufo-img {
   background: url('../../images/ufo-sighting.gif');
   background-size: cover;
   height:380px;
@@ -136,7 +136,7 @@
   border-radius: 2px;
 }
 
-#movie-tracker-img {
+/*#movie-tracker-img {
   background: url('../../images/movie-watcher.png');
   background-size: cover;
   height:309px;
@@ -150,9 +150,9 @@
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
-}
+}*/
 
-#movie-tracker-img:hover {
+#movie-tracker-img {
   background: url('../../images/movie-watcher.gif');
   background-size: cover;
   height:309px;
@@ -161,7 +161,7 @@
   border-radius: 2px;
 }
 
-#star-wars-img {
+/*#star-wars-img {
   background: url('../../images/star-wars.png');
   background-size: cover;
   height:309px;
@@ -175,9 +175,9 @@
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
-}
+}*/
 
-#star-wars-img:hover {
+#star-wars-img {
   background: url('../../images/star-wars.gif');
   background-size: cover;
   height:309px;
@@ -186,7 +186,7 @@
   border-radius: 2px;
 }
 
-#cloud-kicker-img {
+/*#cloud-kicker-img {
   background: url('../../images/cloud-kicker.png');
   background-size: cover;
   height:309px;
@@ -200,9 +200,9 @@
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
-}
+}*/
 
-#cloud-kicker-img:hover {
+#cloud-kicker-img {
   background: url('../../images/cloud-kicker.gif');
   background-size: cover;
   height:309px;
@@ -211,7 +211,7 @@
   border-radius: 2px;
 }
 
-#breakout-img {
+/*#breakout-img {
   background: url('../../images/breakout.png');
   background-size: cover;
   height:368px;
@@ -225,9 +225,9 @@
   border-radius: 2px;
   -webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
-}
+}*/
 
-#breakout-img:hover {
+#breakout-img {
   background: url('../../images/breakout.gif');
   background-size: cover;
   height:368px;

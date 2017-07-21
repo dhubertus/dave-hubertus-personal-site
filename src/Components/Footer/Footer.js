@@ -19,11 +19,6 @@ export const Footer = () => {
           href='mailto:davehubertus@gmail.com'>
         </a>
         <a
-          id='facebook'
-          href='https://www.facebook.com/dhubertus'
-          target='_blank'>
-        </a>
-        <a
           id='instagram'
           href='https://www.instagram.com/daveakadata/?hl=en'
           target='_blank'>
