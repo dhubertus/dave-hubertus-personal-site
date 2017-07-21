@@ -15,7 +15,9 @@ export const Portfolio = () => {
           <p>This project is currently in development although the main funcionality has been completed. When searching for an interesting API that contains lat/long data, I came across plenty of polutant and/or green house gas type API's. Although important, its not the most entertaining data to parse through for weeks. When I came across the UFO Sightings API in an internet thread, I read a few claims and knew I found my data set which proved to be much larger then I could have imagined. I am always thinking of new functionality the user may want when diving into the wild world of UFO sightings. Next steps are to learn/add a form of data visualization (ie. chart.js, d3.js, victory.js) that can provide the user with data trends. Trends, such as, shapes viewed per decade, or number of sightings over time.</p>
           <p id='pitch'>If you're as skeptical as me or even if you believe, you'll enjoy parsing through these claims and wondering, 'What on Earth could they actually have seen?!?'</p>
           <div className='anchor-holder'>
-            <a className='try-it-anchor' onClick={() => alertFunction()}><s>Try It Yourself</s></a>
+            <a className='try-it-anchor'
+              href='http://ufo-sightings-dave-hubertus.herokuapp.com'
+              target='_blank'>Try It Yourself</a>
             <a
               className='repository-anchor'
               href='https://github.com/dhubertus/ufo-sighting-google-maps'
@@ -29,7 +31,9 @@ export const Portfolio = () => {
           <h4>Movie Tracker</h4>
           <p>Movie Tracker was a week long project during my third module at Turing School of Software and Design. During this project we worked off The Movie DB API with the idea that the user should be able to create a user-name, sign in as a user, and save favorite movies. With the intention of becoming comfortable using Redux the technologies used to create this app were React.js, React-Redux, Redux-thunk, React-Router 4.0, PostgreSQL, Vanilla JS, JSX and CSS.</p>
           <div className='anchor-holder'>
-            <a className='try-it-anchor' onClick={() => alertFunction()}><s>Try It Yourself</s></a>
+            <a className='try-it-anchor'
+              href='https://movie-tracker-dave-hubertus.herokuapp.com'
+              target='_blank'>Try It Yourself</a>
             <a
               className='repository-anchor'
               href='https://github.com/dhubertus/MovieTracker'
