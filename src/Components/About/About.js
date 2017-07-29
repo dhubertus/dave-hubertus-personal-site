@@ -9,7 +9,7 @@ export const About = () => {
       <section id='about-container'>
         <div id='headshot'></div>
         <h3 className='about-header'>ABOUT</h3>
-        <p className='personal'>I am a skillful Software Developer with a persistent craving to learn. From my time as a Developer and Chemist, I have developed a passion for innovation, design, problem solving, and data analytics. My skill set is currently rooted in JavasScript environments, and I am excited to use the fundamentals I have developed to learn new languages and frameworks. I value collaboration, agile processes, and strongly believe vision and purpose are key to one's success.</p>
+        <p className='personal'>I am a skillful Software Developer with a persistent craving to learn. From my time as a Developer and Chemist, I have developed a passion for innovation, design, problem solving, and data analytics. My skill set is currently rooted in JavaScript environments, and I am excited to use the fundamentals I have developed to learn new languages and frameworks. I value collaboration, agile processes, and strongly believe vision and purpose are key to one's success.</p>
       </section>
       <section id='about-container'>
         <h3 className='about-header'>STORY</h3>
