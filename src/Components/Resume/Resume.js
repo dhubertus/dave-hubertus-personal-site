@@ -27,15 +27,15 @@ export const Resume = () => {
           <h3>SKILLS</h3>
           <ul>
             <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML5 / Canvas</li>
+            <li>CSS3</li>
             <li>React / Redux / Router</li>
             <li>jQuery</li>
-            <li>HTML5 Canvas</li>
             <li>Node / Express / Knex</li>
-            <li>TDD</li>
+            <li>TDD / Mocha / Chai / Enzyme</li>
+            <li>Webpack</li>
             <li>Design Fundamentals</li>
-            <li>Data Analytics</li>
+            <li>Data Analytics / Visualization</li>
           </ul>
         </article>
         <article id='education-card'>
