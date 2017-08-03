@@ -11,6 +11,21 @@ export const Portfolio = () => {
       <section id='portfolio-card-container'>
         <h3 id='portfolio-title'>PORTFOLIO</h3>
         <article className='project-card'>
+          <h4>Trivial</h4>
+          <p>Trivial is a simple implementation of Jeopardy for those like myself who think thirty minutes a day isn't enough. We set out with the intention of teaching ourselves how to implement web-sockets for mulitplayer action and to introduce ourselves to Sass. The idea was to combine these two technologies with a react and node/express foundation to build out a responsive and easy-to-use application. Trival currently follows many of the rules in Jeopardy such as deducting value for incorrect answers and adding value for the first person to answer correctly. A user can only guess once per question while all open sockets will close as soon as a correct answer has been submitted. There is much more to add to this application as I would enjoy building more true to Jeopardy functionality such as a timer for answering questions. Additionally I would like to build a game board with six categories, each with five resulting clues.</p>
+          <div className='anchor-holder'>
+            <a className='try-it-anchor'
+              href='https://trivial123.herokuapp.com/'
+              target='_blank'>Try It Yourself</a>
+            <a
+              className='repository-anchor'
+              href='https://github.com/kamos1/trivial'
+              target='_blank'>GitHub Repo</a>
+          </div>
+          <div id='trivial-img'>
+          </div>
+        </article>
+        <article className='project-card'>
           <h4>UFO Sightings</h4>
           <p>This project is currently in development although the main funcionality has been completed. When searching for an interesting API that contains lat/long data, I came across plenty of polutant and/or green house gas type API's. Although important, its not the most entertaining data to parse through for weeks. When I came across the UFO Sightings API in an internet thread, I read a few claims and knew I found my data set which proved to be much larger then I could have imagined. I am always thinking of new functionality the user may want when diving into the wild world of UFO sightings. Next steps are to learn/add a form of data visualization (ie. chart.js, d3.js, victory.js) that can provide the user with data trends. Trends, such as, shapes viewed per decade, or number of sightings over time.</p>
           <p id='pitch'>If you're as skeptical as me or even if you believe, you'll enjoy parsing through these claims and wondering, 'What on Earth could they actually have seen?!?'</p>
@@ -24,7 +39,6 @@ export const Portfolio = () => {
               target='_blank'>GitHub Repo</a>
           </div>
           <div id='ufo-img'>
-            <p>HOVER</p>
           </div>
         </article>
         <article className='project-card'>
@@ -40,7 +54,6 @@ export const Portfolio = () => {
               target='_blank'>GitHub Repo</a>
           </div>
           <div id='movie-tracker-img'>
-            <p>HOVER</p>
           </div>
         </article>
         <article className='project-card'>
@@ -57,7 +70,6 @@ export const Portfolio = () => {
               target='_blank'>GitHub Repo</a>
           </div>
           <div id='star-wars-img'>
-            <p>HOVER</p>
           </div>
         </article>
         <article className='project-card'>
@@ -74,7 +86,6 @@ export const Portfolio = () => {
               target='_blank'>GitHub Repo</a>
           </div>
           <div id='cloud-kicker-img'>
-            <p>HOVER</p>
           </div>
         </article>
         <article className='project-card'>
@@ -90,7 +101,6 @@ export const Portfolio = () => {
               target='_blank'>GitHub Repo</a>
           </div>
           <div id='breakout-img'>
-            <p>HOVER</p>
           </div>
         </article>
       </section>

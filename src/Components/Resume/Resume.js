@@ -28,7 +28,7 @@ export const Resume = () => {
           <ul>
             <li>JavaScript</li>
             <li>HTML5 / Canvas</li>
-            <li>CSS3</li>
+            <li>CSS3 / Sass</li>
             <li>React / Redux / Router</li>
             <li>jQuery</li>
             <li>Node / Express / Knex</li>

@@ -127,6 +127,15 @@
   -moz-transition: background-color 0.1s ease-out;
 }*/
 
+#trivial-img {
+  background: url('../../images/trivial.gif');
+  background-size: cover;
+  height:467px;
+  width: 764px;
+  color: transparent;
+  border-radius: 2px;
+}
+
 #ufo-img {
   background: url('../../images/ufo-sighting.gif');
   background-size: cover;
