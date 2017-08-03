@@ -12,9 +12,8 @@ export const DownloadResume = ({ toggleModal }) => {
       <iframe
         src={ ResumeImg }
         title="Dave Hubertus Resume"
-        align="top"
         height="620" width="100%"
-        frameborder="0"
+        frameBorder="0"
         scrolling="auto" target="Message">
       </iframe>
     </section>
