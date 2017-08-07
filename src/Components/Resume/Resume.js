@@ -32,10 +32,12 @@ export const Resume = () => {
             <li>React / Redux / Router</li>
             <li>jQuery</li>
             <li>Node / Express / Knex</li>
+            <li>PostgreSQL</li>
             <li>TDD / Mocha / Chai / Enzyme</li>
             <li>Webpack</li>
             <li>Design Fundamentals</li>
             <li>Data Analytics / Visualization</li>
+            <li>Continuous Integration</li>
           </ul>
         </article>
         <article id='education-card'>
