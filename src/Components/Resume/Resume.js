@@ -8,6 +8,11 @@ export const Resume = () => {
         <article id='experience-container'>
           <h3 id='experience-title'>EXPERIENCE</h3>
           <article className='experience-card'>
+            <h4>Digital Data Services Inc. - Lakewood, CO</h4>
+            <h6>SEPTEMBER 2017 - PRESENT</h6>
+            <p>Digital Data Services is a consultancy that provides custom, desktop and mobile, geospatial web mapping solutions. Utilizing React, Node, Django, PostgreSQL, and various other languages, libraries, and frameworks, I customize web applications by designing and building out new features to increase functionality and overall ease of use.</p>
+          </article>
+          <article className='experience-card'>
             <h4>Turing School of Software and Design - Denver, CO</h4>
             <h6>JANUARY 2017 - AUGUST 2017</h6>
             <p>Turing students invest over 1500 hours across seven months in becoming job-ready software developers. In the Front-End Engineering program we begin by building skills in HTML, CSS, and Design Fundamentals. We continue by laying a solid foundation in core JavaScript, then progress into React. In the final quarter, students build backend applications with Node and SQL. In total, FEE graduates have the skills to turn design comps into working applications.</p>
@@ -26,18 +31,24 @@ export const Resume = () => {
         <article id='skills-card'>
           <h3>SKILLS</h3>
           <ul>
-            <li>JavaScript</li>
-            <li>HTML5 / Canvas</li>
-            <li>CSS3 / Sass</li>
-            <li>React / Redux / Router</li>
-            <li>jQuery</li>
-            <li>Node / Express / Knex</li>
-            <li>PostgreSQL</li>
+            <li>HTML / CSS / Sass</li>
+            <li>JavaScript / jQuery / TypeScript</li>
+            <li>React / Redux</li>
+            <li>Python / Django</li>
+            <li>Google Maps / Leaflet / Mapbox</li>
+            <li>Node / Express</li>
+            <li>SQL / ORMs / Knex / Sequelize</li>
+            <li>PostgreSQL / SQLite</li>
+            <li>AWS / API Gateway / Lambda / S3 / Beanstalk</li>
+            <li>Create & Consume RESTful / SOAP APIs</li>
+            <li>Local Storage / Cookies / JSON Web Token</li>
+            <li>Web Sockets</li>
             <li>TDD / Mocha / Chai / Enzyme</li>
             <li>Webpack</li>
-            <li>Design Fundamentals</li>
             <li>Data Analytics / Visualization</li>
-            <li>Continuous Integration</li>
+            <li>Photoshop / GIMP</li>
+            <li>Git / GitHub / CI Front End Build Pipelines</li>
+            <li>Design Fundamentals</li>
           </ul>
         </article>
         <article id='education-card'>

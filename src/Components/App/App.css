@@ -19,7 +19,7 @@
   justify-content: center;
   height:80px;
   width:100%;
-  color: #f3efeb;
+  color: #fff;
   padding-top: 20px;
 }
 
@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   height: 150px;
   width: 200px;
-  background: #f3efeb;
+  background: #fff;
   padding: 5px 2px;
   font-size: 2em;
   font-weight: 700;
@@ -80,7 +80,7 @@
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #f3efeb;
+    background: #fff;
   }
 
   /* Position and sizing of clickable cross button */
@@ -93,8 +93,7 @@
   .bm-cross {
     /*height: 36px;
     width: 36px;*/
-    background: #f3efeb;
-
+    background: #000;
   }
 
   /* General sidebar styles */
@@ -102,10 +101,11 @@
     /*background: #536073;*/
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-    background: url('../../images/bricks.jpg');
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgba(27, 12, 12, 0.6);
+    /* background: url('../../images/bricks.jpg'); */
+    /* background-size: cover; */
+    /* background-blend-mode: overlay; */
+    background-color: #efefef;
+    /* background-color: rgba(27, 12, 12, 0.6); */
   }
 
   /* Morph shape necessary with bubble or elastic */
@@ -115,7 +115,7 @@
 
   /* Wrapper for item list */
   .bm-item-list {
-    color: #b8b7ad;
+    color: #fff;
     padding: 0.8em;
 
   }
@@ -135,7 +135,7 @@
     text-align: center;
     /*background: #373a47;*/
     margin: 35px 0;
-    color: #f3efeb;
+    color: #000;
   }
 
   .menu-item:hover {

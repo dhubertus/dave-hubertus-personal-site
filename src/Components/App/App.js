@@ -98,7 +98,7 @@ class App extends Component {
   render() {
     return (
       <div id='outer-container'>
-          <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ '80%' } isOpen={ false } left>
+          <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ '90%' } isOpen={ false } left>
 
             <NavLink
               onClick={ () => this.scrollAbout() }

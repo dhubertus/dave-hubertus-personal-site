@@ -1,6 +1,6 @@
 #portfolio-container {
-  background: #536073;
-  color: #f3efeb;
+  background: #fff;
+  color: #000;
   height: auto;
   width: 100%;
   display: flex;
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  border-bottom: 2px solid #776D64;
+  border-bottom: 1px solid #000;
   padding-bottom: 10px;
   letter-spacing: 1.5px;
 }
@@ -36,11 +36,11 @@
 }
 
 .project-card h4 {
-  border-bottom: 2px solid #776D64;
+  border-bottom: 1px solid #000;
   font-size: 1.15em;
   padding-bottom: 10px;
   letter-spacing: 1px;
-  color: #23273e;
+  color: #000;
 }
 
 .project-card p {
@@ -63,11 +63,11 @@
 
 .try-it-anchor {
   margin: 30px;
-  background: #776d64;
+  background: #fff;
   padding: 10px;
   border-radius: 2px;
   text-decoration: none;
-  color: #f3efeb;
+  color: #000;
   font-size: 0.9em;
   -webkit-transition: color 0.15s ease-out;
   -moz-transition: color 0.15s ease-out;
@@ -75,11 +75,11 @@
 
 .repository-anchor {
   margin:30px;
-  background: #776d64;
+  background: #fff;
   padding: 10px;
   border-radius: 2px;
   text-decoration: none;
-  color: #f3efeb;
+  color: #000;
   font-size: 0.9em;
   -webkit-transition: color 0.15s ease-out;
   -moz-transition: color 0.15s ease-out;
@@ -94,11 +94,11 @@
 }
 
 .try-it-anchor:active {
-  color: #23273e;
+  color: #000;
 }
 
 .repository-anchor:active {
-  color: #23273e;
+  color: #000;
 }
 
 
@@ -134,6 +134,7 @@
   width: 764px;
   color: transparent;
   border-radius: 2px;
+  border: 1px solid #000;
 }
 
 #ufo-img {
@@ -247,6 +248,7 @@
 
 
 @media screen and (max-width: 860px) {
+  #trivial-img,
   #ufo-img,
   #movie-tracker-img,
   #star-wars-img,
